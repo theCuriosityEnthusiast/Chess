@@ -2,11 +2,15 @@ package chess;
 
 public class Position {
 	
-	int x;
-	String y;
+	int file;
+	String rank;
 	
-	Position(int x, String y){
-		this.x = x;
-		this.y= y;
+	Position(){
+		file= 0;
+		rank="";
+	}
+	Position(int file, String rank){
+		this.file = file;
+		this.rank= rank;
 	}
 }
