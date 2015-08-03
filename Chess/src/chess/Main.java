@@ -11,10 +11,12 @@ public class Main {
 		//System.out.println("The move is : " +str );
 		input.close();
 		
-		ChessBoard cb = new ChessBoard();
-		cb.printBoard();
+		//ChessBoard cb = new ChessBoard();
+		//cb.printBoard();
 		
 		Move move = new Move();
+		move.chessboard.printBoard();
 		move.decodeMove(str);
+		move.chessboard.printBoard();
 	}
 }
