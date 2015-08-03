@@ -38,4 +38,15 @@ public class ChessBoard {
 			System.out.println();
 		}
 	}
+	
+	public void changePosition(int player, String piece, Position oldPosition, Position newPosition){
+		if(oldPosition.file == 0){
+			//detect position and move
+		}
+		else{
+			//change from oldPosition to new Position.
+		}
+	}
+	
+	
 }
